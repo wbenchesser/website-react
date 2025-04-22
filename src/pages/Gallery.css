@@ -1,0 +1,108 @@
+.gallery-page {
+    padding: 0rem 0;
+  }
+  
+  .gallery-page h2 {
+    text-align: left;
+    margin-bottom: 1.5rem;
+  }
+  
+  .gallery-section + .gallery-section {
+    margin-top: 2rem;
+  }
+  
+  .gallery-section h3 {
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.25rem;
+  }
+  
+  /* grid of photos */
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  /* each photo box */
+  .photo-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .photo-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .photo-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+  
+  /* dark‑mode overrides */
+  .dark-mode .gallery-page {
+    /* optional: tweak background if needed */
+  }
+  
+  .dark-mode .photo-item {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+  }
+  
+  .dark-mode .photo-item:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.7);
+  }
+
+  .photo-item {
+    aspect-ratio: 4 / 3;  /* or a fixed height, or any ratio you like */
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .photo-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+
+  /* =====================================
+   Lightbox overlay (fullscreen popup)
+   ===================================== */
+  
+  .lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  }
+
+  .lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+  
+    /* stack children vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    z-index: 1000;
+  }
+  
+  /* keep the caption styling */
+  .lightbox-caption {
+    margin-top: 0.5rem;
+    color: #fff;
+    font-size: 0.95rem;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.7);
+    cursor: default;
+  }

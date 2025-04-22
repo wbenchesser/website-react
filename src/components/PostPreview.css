@@ -1,0 +1,50 @@
+.post-item {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .post-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  }
+  
+  /* Date */
+  .post-date {
+    font-size: 0.875rem;
+    color: #666;
+    margin-bottom: 0.25rem;
+  }
+  
+  /* Title */
+  .post-title {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  .post-title a {
+    color: #007acc;
+    text-decoration: none;
+  }
+  .post-title a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Excerpt */
+  .post-excerpt {
+    margin-top: 0.5rem;
+    color: #333;
+    line-height: 1.4;
+  }
+  
+  /* Dark mode overrides (if using your existing .dark-mode) */
+  .dark-mode .post-item {
+    background: #2c2c2c;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  }
+  .dark-mode .post-date {
+    color: #aaa;
+  }
+  .dark-mode .post-excerpt {
+    color: #ccc;
+  }
