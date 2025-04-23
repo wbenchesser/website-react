@@ -129,7 +129,7 @@ const galleryData = [
         date: 'May, 2024'  
       },
       { 
-        file: 'thanksgiving.JPG', 
+        file: 'thanksgiving.jpg', 
         focus: 'center',
         location: 'Concord, North Carolina',
         date: 'November, 2024'  
