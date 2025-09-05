@@ -9,10 +9,10 @@ export default function Home() {
         <p>
           In case you don't know me, I'm Ben. 
           I'm working on my BS in Computer Science with a minor in Creative Writing at <a href="https://www.unc.edu">UNC Chapel Hill</a>. 
-          This summer, I'll be heading to Austin, Texas to for a software engineering internship at Apple. 
-          I'm currently a teaching assistant for the UNC Systems Fundamentals course (COMP 211) and used to be a TA for our Computer Organization course (COMP 311). 
-          I am a <a href="https://csxl.unc.edu/welcome">Computer Science Experience Labs</a> (CSXL) staff member and I'm gearing up to take over as manager in the Fall. 
-          Finally, I am the CEO of <a href="https://appteamcarolina.com">App Team Carolina</a>, a nonprofit student organization that primarily teaches mobile development and makes production-level apps including ones for other nonprofits like <a href="https://chapelhill.porchcommunities.org">PORCH</a> and startup apps like <a href="https://centible.app">Centible</a>.
+          This summer, I was a software engineering intern at Apple in Austin, Texas. 
+          I'm currently a teaching assistant for the UNC Computer Organization course (COMP 311) and used to be a TA for our System's Fundamentals course (COMP 211). 
+          I am the <a href="https://csxl.unc.edu/welcome">Computer Science Experience Labs</a> (CSXL) staff manager and have been working with them for three semesters. 
+          Finally, I am the current senior advisor and previous CEO of <a href="https://appteamcarolina.com">App Team Carolina</a>, a nonprofit student organization that primarily teaches mobile development and makes production-level apps including ones for other nonprofits like <a href="https://chapelhill.porchcommunities.org">PORCH</a> and startup apps like <a href="https://centible.app">Centible</a>.
           You can view my resume <a href="/documents/resume.pdf" target="_blank" rel="noopener noreferrer">here</a>.
         </p>
       </section>

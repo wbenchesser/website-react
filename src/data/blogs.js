@@ -42,6 +42,8 @@ export const blogs = [
             task of it?<br>
             Love is for the ones who love the work.</p>
         </blockquote>
+
+        <p><i>Note from 9/5/25: I don't necessarily agree with everything from this post anymore, but I still thinks it gives some valuable insight into my mindset from around this time.</i></p>
       `
     }
   ];
